@@ -27,6 +27,20 @@
             <artifactId>ognl</artifactId>
             <version>3.0.8</version>
         </dependency>
+
+        <!--test dependency -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <scope>test</scope>
+            <version>4.11</version>
+        </dependency>
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-all</artifactId>
+            <scope>test</scope>
+            <version>1.9.5</version>
+        </dependency>
     </dependencies>
 
     
