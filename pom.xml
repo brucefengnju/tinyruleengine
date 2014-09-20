@@ -6,7 +6,28 @@
 
     <groupId>info.brucefeng.tinyruleengine</groupId>
     <artifactId>tinyruleengine</artifactId>
+    <packaging>jar</packaging>
     <version>0.0.1-SNAPSHOT</version>
+
+    <name>tinyruleengine</name>
+    <url>https://github.com/brucefengnju/tinyruleengine</url>
+
+    <properties>
+        <dependencies>target/dependencies</dependencies>
+    </properties>
+
+    <build>
+        <defaultGoal>install</defaultGoal>
+        <plugins>
+        </plugins>
+    </build>
+    <dependencies>
+        <dependency>
+            <groupId>ognl</groupId>
+            <artifactId>ognl</artifactId>
+            <version>3.0.8</version>
+        </dependency>
+    </dependencies>
 
     
 </project>
