@@ -7,7 +7,7 @@ import java.util.List;
 public class RuleActionGroup implements Serializable{
     private int ruleGroupId;
     private String ruleGroupName;
-    private int typeId;
+    private int type;
     private int ruleTrigger;
     private int stock;
     private Date startDate;
@@ -31,12 +31,12 @@ public class RuleActionGroup implements Serializable{
         this.ruleGroupName = ruleGroupName;
     }
 
-    public int getTypeId() {
-        return typeId;
+    public int getType() {
+        return type;
     }
 
-    public void setTypeId(int typeId) {
-        this.typeId = typeId;
+    public void setType(int type) {
+        this.type = type;
     }
 
     public int getRuleTrigger() {

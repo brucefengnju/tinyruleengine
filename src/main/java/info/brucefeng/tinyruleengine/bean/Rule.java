@@ -7,7 +7,7 @@ public class Rule implements Serializable{
 
     private int ruleId;
     private int ruleActionId;
-    private int typeId;
+    private int type;
     private String ruleTypeKey;
     private List<RuleValue> ruleValueList;
 
@@ -35,12 +35,12 @@ public class Rule implements Serializable{
         this.ruleActionId = ruleActionId;
     }
 
-    public int getTypeId() {
-        return typeId;
+    public int getType() {
+        return type;
     }
 
-    public void setTypeId(int typeId) {
-        this.typeId = typeId;
+    public void setType(int type) {
+        this.type = type;
     }
 
     public String getRuleTypeKey() {

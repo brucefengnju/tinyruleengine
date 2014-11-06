@@ -7,7 +7,7 @@ import java.util.List;
 public class RuleAction implements Serializable{
     private int ruleActionId;
     private int ruleGroupId;
-    private int typeId;
+    private int type;
     private BigDecimal actionValue;
     private String extraInfo;
     private int priority;
@@ -30,12 +30,12 @@ public class RuleAction implements Serializable{
         this.ruleGroupId = ruleGroupId;
     }
 
-    public int getTypeId() {
-        return typeId;
+    public int getType() {
+        return type;
     }
 
-    public void setTypeId(int typeId) {
-        this.typeId = typeId;
+    public void setType(int type) {
+        this.type = type;
     }
 
     public BigDecimal getActionValue() {
