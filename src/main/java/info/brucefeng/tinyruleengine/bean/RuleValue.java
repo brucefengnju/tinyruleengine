@@ -6,7 +6,7 @@ public class RuleValue implements Serializable{
     private int ruleValueId;
     private int ruleId;
     private String ruleValue;
-    private int operator;
+    private  Operator operator;
 
     public int getRuleValueId() {
         return ruleValueId;
@@ -32,11 +32,22 @@ public class RuleValue implements Serializable{
         this.ruleValue = ruleValue;
     }
 
-    public int getOperator() {
+    public Operator getOperator() {
         return operator;
     }
 
-    public void setOperator(int operator) {
+    public void setOperator(Operator operator) {
         this.operator = operator;
+    }
+
+    public static enum  Operator{
+        Less("<"),
+        LessEqual("<="),
+
+        ;
+        private String symbol;
+        private Operator(String symbol){
+            this.symbol = symbol;
+        }
     }
 }

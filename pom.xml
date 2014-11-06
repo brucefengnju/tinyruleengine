@@ -27,7 +27,11 @@
             <artifactId>ognl</artifactId>
             <version>3.0.8</version>
         </dependency>
-
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>15.0</version>
+        </dependency>
         <!--test dependency -->
         <dependency>
             <groupId>junit</groupId>
